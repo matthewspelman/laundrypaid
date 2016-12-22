@@ -47,6 +47,10 @@ header {
   margin: 0 auto;
 }
 
+#mc_embed_signup input.button {
+   width: 40%;
+}
+
 #mc_embed_signup .button:hover {
   background: #FF0000;
 }
@@ -77,9 +81,15 @@ img {
   margin-right: auto;
 }
 
-h3, h4, p, .material-icons, .icon-text {
+p, h3, h4, .material-icons, .icon-text {
 	display: block;
 	text-align: center;
+}
+
+p.carousel {
+  color: white;
+  background-color: black;
+  opacity: 0.75;
 }
 
 .post {
@@ -162,18 +172,7 @@ footer {
 .social-button.google .fa {
   color: #DC4A38;
 }
-.social-button.dribbble:before {
-  background-color: #F26798;
-}
-.social-button.dribbble .fa {
-  color: #F26798;
-}
-.social-button.skype:before {
-  background-color: #00AFF0;
-}
-.social-button.skype .fa {
-  color: #00AFF0;
-}
+
 .social-button:focus:before, .social-button:hover:before {
   top: -10%;
   left: -10%;
