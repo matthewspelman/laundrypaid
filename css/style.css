@@ -86,14 +86,12 @@ p, h3, h4, .material-icons, .icon-text {
 	text-align: center;
 }
 
-p.carousel {
+
+div.carousel-caption {
   color: white;
   background-color: black;
-  opacity: 0.75;
-}
-
-.post {
-	text-align: center;
+  opacity: .75;
+  border-radius: 5px;
 }
 
 footer {
