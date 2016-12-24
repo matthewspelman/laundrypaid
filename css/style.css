@@ -39,16 +39,18 @@ header {
   width: 100%;
 }
 
-.mc_embed_signup, .btn, .email {
-  background: #fff; 
-  clear: middle; 
-  padding-left: 0;
-  padding-right: 0;
-  margin: 0 auto;
+div#mc_embed_signup_scroll {
+  margin-right: auto;
+  margin-left: auto;
+  display: table;
+}
+
+#mc_embed_signup input.email {
+  width: 85%;
 }
 
 #mc_embed_signup input.button {
-   width: 40%;
+   width: 60%;
 }
 
 #mc_embed_signup .button:hover {
@@ -85,7 +87,6 @@ p, h3, h4, .material-icons, .icon-text {
 	display: block;
 	text-align: center;
 }
-
 
 div.carousel-caption {
   color: white;
